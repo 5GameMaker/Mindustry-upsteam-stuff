@@ -9,7 +9,7 @@ buildscript{
         arcModule = { String name ->
             //skip to last submodule
             name = name.substring(name.lastIndexOf(':') + 1)
-            return "com.github.Anuken${localArc ? "" : ".Arc"}:$name:$arcHash"
+            return "com.github.5GameMaker${localArc ? "" : ".Arcv7"}:$name:$arcHash"
         }
     }
 
